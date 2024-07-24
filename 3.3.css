@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FF0000;
+}
+#p1{
+    color: black;
+    text-align: left;
+    font-style: italic;
+}
+#p2 {
+    color: rgb(0, 255, 0);
+}
+#p3{
+    color: darkblue;
+    text-align: right;
+    font-weight: 200;
+    border-color: rgba(0, 0, 255, 0.5);
+}
+#p4{
+    color: palevioletred;
+    background-color: hsl(0, 100%, 50%);
+}
+#p5{
+    color: darkmagenta;
+    color: hsla(60, 100%, 50%, 0.7);
+}
+#d1{
+    color: brown;
+}
+#d2{
+    color: sienna;
+    text-align: center;
+    font-size: small;
+}

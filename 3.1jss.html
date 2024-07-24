@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1>Using indexOf Method</h1>
+<div class="output">
+<pre>
+The actual string                   - <span id="actualString">Capgemini</span>
+The character to be searched for is - <span id="character">p</span>
+The character is found at the index - <span id="indexOutput">2</span>
+</pre>
+</div>
+<script>
+var actualString = "capgemini";
+var characterToFind = "p";
+        var index = actualString.indexOf(characterToFind);
+ 
+                document.getElementById("indexOutput").textContent = index;
+</script>
+</body>
+</html>
